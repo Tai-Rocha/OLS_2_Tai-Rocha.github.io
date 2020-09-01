@@ -175,13 +175,13 @@ Questions or feedback about how to improve this self-assessment? Email the Open 
 
 You can also participate in any of these open leadership offerings from Mozilla:
 
-* Fellowships
-* Global Sprint
-* Internet Health Report
-* MozFest
-* Open Leaders
-* Open Leadership 101
-* Open Leadership Training Series
+* Fellowships https://foundation.mozilla.org/opportunity/fellowships/
+* Global Sprint https://mozilla.github.io/global-sprint/
+* Internet Health Report https://internethealthreport.org/
+* MozFest https://mozillafestival.org/
+* Open Leaders https://mozilla.github.io/leadership-training/
+* Open Leadership 101 https://mozilla.teachable.com/p/open-leadership-101
+* Open Leadership Training Series https://mzl.la/open-leadership
 
 Thank you for your leadership! We look forward to hearing from you.
 
