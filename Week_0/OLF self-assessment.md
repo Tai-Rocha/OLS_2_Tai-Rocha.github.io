@@ -122,31 +122,31 @@ Use your score in each section to determine which area of open leadership you mi
 
 | Item                                                                                           |  Often (2) |  Sometimes (1) |  Seldom (0) | 
 |---                                                                                             |---         |---             |---          |
-|I make sure to check myself frequently to maintain integrity.                                   |            |                |             |
-|I carry and hold clarity of vision and purpose for my projects.                                 |            |                |             |  
-|I remain curious, thankful for feedback, and dedicated to improvement.                          |            |                |             |
-|Empower for understanding - total points:                                                        |            |                |             |
+|I make sure to check myself frequently to maintain integrity.                                   |    x       |                |             |
+|I carry and hold clarity of vision and purpose for my projects.                                 |    x       |                |             |  
+|I remain curious, thankful for feedback, and dedicated to improvement.                          |    x       |                |             |
+|Empower for understanding - total points:                                                       |                    6/6                    |
 
 ### Empower for sharing
 
 
 | Item                                                                                                                  |  Often (2) |  Sometimes (1) |  Seldom (0) | 
 |---                                                                                                                    |---         |---             |---          |
-|I match contributors with work that fulfills and inspires them.                                                        |            |                |             |
-|I welcome challenges to my assumptions and ways of doing things and make it safe for contributors to be honest with me.|            |                |             |  
-|I take time for self-care to prevent burnout and encourage others to do the same.                                      |            |                |             |
-|Empower for sharing - total points                                                                                     |            |                |             |
+|I match contributors with work that fulfills and inspires them.                                                        |     x      |                |             |
+|I welcome challenges to my assumptions and ways of doing things and make it safe for contributors to be honest with me.|     x      |                |             |  
+|I take time for self-care to prevent burnout and encourage others to do the same.                                      |            |      x         |             |
+|Empower for sharing - total points                                                                                     |            5/6                       |
            
 ### Empower for participation & inclusion           
 
 | Item                                                                                                |  Often (2) |  Sometimes (1) |  Seldom (0) | 
 |---                                                                                                  |---         |---             |---          |
-|I make it safe to fail and expect myself and others to learn from failure.                           |            |                |             |
-|I protect the physical, emotional, and mental well-being of contributors.                            |            |                |             |  
-|I create multiple, inclusive pathways to participate in my projects and celebrate the accomplishments of people from all the forms of diversity we hold together.                                                                                             |            |                |             |
-|Empower for participation & inclusion - total points                                                 |            |                |             |
+|I make it safe to fail and expect myself and others to learn from failure.                           |            |     x          |             |
+|I protect the physical, emotional, and mental well-being of contributors.                            |            |     x          |             |  
+|I create multiple, inclusive pathways to participate in my projects and celebrate the accomplishments of people from all the forms of diversity we hold together.                                                                                             |            |     x          |             |
+|Empower for participation & inclusion - total points                                                 |                  3/6                      |
 |---                                                                                                  |---         |---             |---          |
-|Build - total points:                                                                                |            |                |             |       
+|Build - total points:                                                                                |                  14 /18                   |       
 
 ### Interpreting your empower score
 * If you scored 9 or below, empower might be an area of growth for you. Consider applying for our next Open Leaders cohort for mentoring.
