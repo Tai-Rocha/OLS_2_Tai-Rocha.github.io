@@ -4,6 +4,7 @@
 #### Links for me not loss
 
 * Open leadership self-assessment :
+
 https://docs.google.com/document/d/1oQgdfj4lPnypAyb9_Ba0Zt7E8J5L6qMvuKwu0wgQsjs/edit
 
 
