@@ -146,7 +146,7 @@ Use your score in each section to determine which area of open leadership you mi
 |I create multiple, inclusive pathways to participate in my projects and celebrate the accomplishments of people from all the forms of diversity we hold together.                                                                                             |            |     x          |             |
 |Empower for participation & inclusion - total points                                                 |                  3/6                      |
 |---                                                                                                  |---         |---             |---          |
-|Build - total points:                                                                                |                  14 /18                   |       
+|Build - total points:                                                                                |                  14/18                    |       
 
 ### Interpreting your empower score
 * If you scored 9 or below, empower might be an area of growth for you. Consider applying for our next Open Leaders cohort for mentoring.
@@ -156,7 +156,7 @@ Use your score in each section to determine which area of open leadership you mi
 
 ## Overall score
 
-| My overall score (design + build + empower)                                    |  38/72 | 
+## My overall score (design + build + empower)                                    |  38/72 | 
            
 ### Interpreting your overall score
 Developing your open leadership practice is a journey, and the most important step you can take on that journey is to begin in an intentional way. You should use your overall score as motivation to explore and learn about the areas of open leadership that seem most interesting and important to you. 
