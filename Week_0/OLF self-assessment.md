@@ -11,12 +11,14 @@ Open leaders design, build and empower projects and communities for understandin
 
 ## Story
 
-#### Hector, the open evangelist
+#### Tainá, ....
 
 #### Before
-Hector is an evangelist for openness working at a media policy non-profit. A colleague emails him a link they found to the Open Leadership Framework. Hector spends an afternoon reviewing and critiquing the framework and then imagines ways he might adapt and apply its principles, practices, and skills in his own work and in his organization.
+Tainá is a biologist.............
+
 #### Use-case
-Hector tries the self-assessment use-case to see how well his beliefs and practices align with the framework and to identify areas of personal and professional development he might pursue as a self-identified open leader. He finds that while he often designs and builds projects for open participation, he doesn’t empower others to take on leadership roles in his projects as much as he thought he did.
+Tainá tries the self-assessment use-case to see how well.....
+
 #### After
 Through a follow-up conversation with members of Mozilla’s Open Leadership & Events team, Hector learns about the MIT Open Leadership Camp and attends the next round with his director to learn how they might better delegate leadership of their organization’s projects to volunteer contributors. They leave camp with a new system to test for identifying volunteer contributors ready to take on project management roles.
 
