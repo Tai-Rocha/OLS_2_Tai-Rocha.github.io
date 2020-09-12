@@ -16,9 +16,11 @@ https://openlifesci.org/ols-2/schedule/
 https://hackmd.io/@openlifesci/OLS-HackMD-guide
 
 
-* Meu arquivo HacMD:
+* HacMD:
 
-https://hackmd.io/dYoCs4G4RESdyiaZeYzscQ?both#Homework-before-meeting-your-mentor
+ My : https://hackmd.io/dYoCs4G4RESdyiaZeYzscQ?both#Homework-before-meeting-your-mentor
+ 
+HacMD note meetin cohort-2 week 2:  https://hackmd.io/@openlifesci/ols2-week2
 
 
 * OLS-2 - Group's availability:
