@@ -52,7 +52,7 @@ Before Week 4 (21 - 25 September 2020): Cohort Call (Tooling and roadmapping for
 - [ ] Look up two other projects and comment on their issues with feedback on their open canvas.
 
 Week 5 and later
-- [ ] Create a GitHub repository for your project
+- [X] Create a GitHub repository for your project
 - [ ] Add the link to your repository in your issue
 - [ ] Use your canvas to [start writing a `README.md` file](https://mozilla.github.io/open-leadership-training-series/articles/opening-your-project/write-a-great-project-readme/), or landing page, for your project
 - [ ] Link to your README in a comment on this issue
