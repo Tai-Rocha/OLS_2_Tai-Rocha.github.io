@@ -66,7 +66,7 @@ This issue is here to help you keep track of work as you start Open Life Science
 
 
 
-#### Links for me not loss
+#### Links for I don't get lost
 
 * Open leadership self-assessment :
 
