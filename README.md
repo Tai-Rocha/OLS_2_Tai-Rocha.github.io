@@ -37,10 +37,10 @@ Before Week 2 (7 - 11 September 2020): Cohort Call (Welcome to Open Life Science
   [This lesson](https://mozilla.github.io/open-leadership-training-series/articles/introduction-to-open-leadership/stating-your-project-vision/) from the Open Leadership Training Series (OLTS) might be helpful
 
 - [x] Leave a comment on this issue with your draft vision statement & be ready to share this on the call
-- [ ] Check the [Syllabus](https://openlifesci.org/ols-2) for notes and connection info for all the cohort calls.
+- [X] Check the [Syllabus](https://openlifesci.org/ols-2) for notes and connection info for all the cohort calls.
 
 Before Week 3 (14 - 18 September 2020): Meet your mentor!
-- [ ] Look up two other projects and comment on their issues with feedback on their vision statement
+- [X] Look up two other projects and comment on their issues with feedback on their vision statement
 - [ ] Complete this [compare and contrast assignment](https://docs.google.com/document/d/1ukvqDRIYfvCapVMdE5hWP-0MkLNJ9T65X43O7F336Ac/edit?usp=sharing) about current and desired community interactions and value exchanges
 - [ ] Complete your Open Canvas ([instructions](https://mozilla.github.io/open-leadership-training-series/articles/opening-your-project/develop-an-open-project-strategy-with-open-canvas/), [canvas](https://docs.google.com/presentation/d/1MeJo0TyuMg_waLk1J4q9y1aAqKNMuRBlnmxEChSz-cQ/edit?usp=sharing))
 - [ ] Share a link to your Open Canvas in your GitHub issue
