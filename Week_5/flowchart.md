@@ -31,4 +31,4 @@ A(<font size=3>LUH2_netCDF) --> B[<font size=3>primf.tif]
     N --> O><font size=3>LULC*.tif]
 ```
 
-* LULC file is new data made by us based on original data 
+* LULC file is a new data made by us based on original data 
