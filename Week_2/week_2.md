@@ -1,8 +1,8 @@
 ### Project: Global land-use and land-cover (LULC) data under historical, current, and future climatic conditions for ecologists.
 
 
-
- Week 2 (7 - 11 September 2020): Cohort Call (Welcome to Open Life Science!)
+  Week 2 (7 - 11 September 2020): Cohort Call (Welcome to Open Life Science!)
+  
 - [x] Create an issue on the [OLS-2 GitHub repository](https://github.com/open-life-science/ols-2/issues/new) for your OLS work and share   the link to your mentor.
   https://github.com/open-life-science/ols-2/issues/16
   
