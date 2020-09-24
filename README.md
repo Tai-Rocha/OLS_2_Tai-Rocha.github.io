@@ -87,7 +87,7 @@ https://hackmd.io/@openlifesci/OLS-HackMD-guide
  
  Week_2 HacMD note meeting cohort-2 week 2:  https://hackmd.io/@openlifesci/ols2-week2
  
- Week_4-4 HacMD note meentig cohort week 4 :https://hackmd.io/@ols-2/week-04
+ Week_4 HacMD note meentig cohort week 4 :https://hackmd.io/@ols-2/week-04
 
 
 * OLS-2 - Group's availability:
