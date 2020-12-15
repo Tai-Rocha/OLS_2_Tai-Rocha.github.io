@@ -23,7 +23,7 @@ Despite of several initivaes provide LULC data. However most of these datasets a
 Figure
 
 ---
-One interesting database called Land use harmonization porject, provides a set of land-use scenarios  for historical, present and future projections. The data raw data are continuoyr layer for tweves types called states
+One interesting database called Land use harmonization porject, provides a set of land-use scenarios  for historical, present and future projections (years from 800 to 2300). The data raw data are continuous layers for twelve types called states
 
 primf: forested primary land
 primn: non-forested primary land
@@ -38,12 +38,39 @@ c4ann: C4 annual crops
 c4per: C4 perennial crops
 c3nfx: C3 nitrogen-fixing crops
 
+Image
+
+
+
 However this data in provided in netcdf format, that is not user friendely for ecologist. 
 
 ---
-Main goal: Resdistribute the data in tiff format that is more commom format used im many ecology analysis. Create a new data base of these all states.
+Main goal: 
+1- Resdistribute the data in tiff format that is more commom format used in ecology analysis. 
 
-How: I build a R script to 1- extract one by one layer 2- save each single state (which is a continuous data) as a TIF format, 3- perfome a analysis to create a LULC categorical data that in a new data and 4- Validation the data (in porgress)
+2- Created a new data based on these all states.
+
+
+
+How?
+
+I build a R script to 1- extract one by one layer 
+2- save each single state (which is a continuous data) as a TIF format, 
+3- Perfome a analysis to create a LULC categorical data that in a new data produced here.
+4- Validadtion of LULC new data (in porgress)
+
+
+Results:
+ 1- Several continuous layers in tiff format (from 800 to 2100)
+ 2- Land use lan cover data categorical layr from each year
+ 
+ 
+Next stpes :
+
+1- I need to optimize the R script (prralelism?)
+2- Put the prduct (layers in  Ecoclimate database, a free database.)
+
+
 
 
 
