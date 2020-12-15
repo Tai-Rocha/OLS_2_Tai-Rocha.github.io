@@ -13,10 +13,13 @@ output:
       highlightLines: true
       countIncrementalSlides: false
 ---
+Motivation 
 
 Mapping the Land-Use Land-Cover (LULC) changes through time is important and desirable in many fields i ecology like to predict the threats or propose effective conservation policies and others (Jetz,Wilcove, Dobson, 2007). 
 
 ---
+Motivation
+
 Despite of several initivaes provide LULC data. However most of these datasets are for short time series. 
  
 ESA
@@ -39,11 +42,14 @@ knitr::include_graphics("https://prd-wret.s3.us-west-2.amazonaws.com/assets/pall
 ```
 
 ---
+Motivation
+ 
 One interesting database called Land-Use Harmonization (LUH2), provides a set of land-use scenarios  for historical, present and future projections (years from 800 to 2300). The raw data are continuous layers for twelve types called states
 ```{r LUH2, echo=FALSE, message=FALSE, warning=FALSE, out.width= "60%", paged.print=TRUE, fig.align = "center"}
 knitr::include_graphics("https://luh.umd.edu/images/LUH2_logo300.jpg")
 ```
 ---
+Motivation 
 ```{r LUH2_2, echo=FALSE, message=FALSE, warning=FALSE, out.width= "40%", paged.print=TRUE, fig.align = "center"}
 knitr::include_graphics("https://luh.umd.edu/images/LUH2_logo300.jpg")
 ```
@@ -66,44 +72,57 @@ knitr::include_graphics("https://github.com/Tai-Rocha/OLS_2_Tai-Rocha/blob/maste
 
 ```
 --
+Issue
+
 However this data in provided in netcdf format, that is not user friendely for ecologist. 
 
 ---
-Main goal: 
-1- Resdistribute the data in tiff format that is more commom format used in ecology analysis. 
+Main goal 
 
+1- Redistribute the data in Tagged Image Format File (.tif extention) that is more commom format used in ecology analysis. 
 
-
-2- Created a new data based on these all states.
-
-
+2- Created a new data from these 12 states.
 
 ---
 How?
 
-I build a R script to 1- extract one by one layer 
-2- save each single state (which is a continuous data) as a TIF format, 
-3- Perfome a analysis to create a LULC categorical data that in a new data produced here.
+I build a R scripts for : 
+1- Extract one by one layer 
+2- Save each single layer (which is a continuous data) as a TIF format, 
+3- Perfomer a analysis to create a LULC categorical data that in a new data produced here.
 4- Validadtion of LULC new data (in porgress)
 
----
-Results:
+```{r workflow, echo=FALSE, message=FALSE, warning=FALSE, paged.print=TRUE, out.width = "65%"}
 
- 2- Land use lan cover data categorical layr from each year
+knitr::include_graphics("https://github.com/Tai-Rocha/LUH2_Data/blob/master/doc/Figures/LUH2%20_LULC.png?raw=true")
+
+```
+
+---
+Results
+
+ 1- Several continuous layers for each type and for each year from 850 to 2100 (Raw data in tif format)
  
- 
+```{r tif layer, echo=FALSE, message=FALSE, warning=FALSE, paged.print=TRUE, out.width = "100%"}
+knitr::include_graphics("https://github.com/Tai-Rocha/OLS_2_Tai-Rocha/blob/master/img/forested%20primary%20land_ols.png?raw=true")
+
+```
  
 ---
- Results:
+ Results
 
- 2- Land use lan cover data categorical layr from each year
+ 2- Land use lan cover data (categorical layer) from each year.
  
- 
- 
- 
+```{r categorical layer, echo=FALSE, message=FALSE, warning=FALSE, paged.print=TRUE, out.width = "70%"}
+knitr::include_graphics("https://github.com/Tai-Rocha/OLS_2_Tai-Rocha/blob/master/img/LULC_2010.jpg?raw=true")
+
+```
+---
 Next stpes :
 
 1- I need to optimize the R script (prralelism?)
+
+
 2- Put the prduct (layers in  Ecoclimate database, a free database.)
 
 
@@ -111,6 +130,12 @@ Next stpes :
 Refrences :
 
 
+
+---
+
+Tahank you !!
+
+Special thank to my mentoor : YVAN and Bruno 
 
 
 
