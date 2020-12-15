@@ -4,6 +4,7 @@ subtitle: "OLS final presentation"
 author: "Tainá Rocha"
 institute: "Botanical Garden of Rio de Janeiro, Brazil"
 date: "2020/12/17 (updated: `r Sys.Date()`)"
+encoding: "UTF 8"
 output:
   xaringan::moon_reader:
     lib_dir: libs
@@ -15,43 +16,69 @@ output:
 
 Mapping the Land-Use Land-Cover (LULC) changes through time is important and desirable in many fields i ecology like to predict the threats or propose effective conservation policies and others (Jetz,Wilcove, Dobson, 2007). 
 
-Figures 
-
 ---
 Despite of several initivaes provide LULC data. However most of these datasets are for short time series. 
  
-Figure
+ESA
+```{r ESA initiatives, echo=FALSE, message=FALSE, warning=FALSE, out.width= "40%", paged.print=TRUE, fig.align = "right"}
+
+knitr::include_graphics("https://www.esa.int/var/esa/storage/images/esa_multimedia/images/2014/10/land_cover_2010/14949658-1-eng-GB/Land_cover_2010_pillars.jpg")
+```
+
+CGLS
+```{r CGLS initiatives, echo=FALSE, message=FALSE, warning=FALSE, out.width= "40%", paged.print=TRUE, fig.align = "center"}
+
+knitr::include_graphics("https://land.copernicus.eu/global/sites/cgls.vito.be/files/vegetation_LC.png")
+
+```
+
+USGS
+```{r LULC initiatives, echo=FALSE, message=FALSE, warning=FALSE, out.width= "40%", paged.print=TRUE, fig.align = "left"}
+
+knitr::include_graphics("https://prd-wret.s3.us-west-2.amazonaws.com/assets/palladium/production/s3fs-public/styles/side_image/public/thumbnails/image/dmidGLCC_global_0.jpg")
+```
 
 ---
-One interesting database called Land use harmonization porject, provides a set of land-use scenarios  for historical, present and future projections (years from 800 to 2300). The data raw data are continuous layers for twelve types called states
+One interesting database called Land-Use Harmonization (LUH2), provides a set of land-use scenarios  for historical, present and future projections (years from 800 to 2300). The raw data are continuous layers for twelve types called states
+```{r LUH2, echo=FALSE, message=FALSE, warning=FALSE, out.width= "60%", paged.print=TRUE, fig.align = "center"}
+knitr::include_graphics("https://luh.umd.edu/images/LUH2_logo300.jpg")
+```
+---
+```{r LUH2_2, echo=FALSE, message=FALSE, warning=FALSE, out.width= "40%", paged.print=TRUE, fig.align = "center"}
+knitr::include_graphics("https://luh.umd.edu/images/LUH2_logo300.jpg")
+```
+ - primf: forested primary land
+ - primn: non-forested primary land
+ - secdf: potentially forested secondary land
+ - secdn: potentially non-forested secondary land
+ - pastr: managed pasture
+ - range: rangeland
+ - urban: urban land
+ - c3ann: C3 annual crops
+ - c3per: C3 perennial crops
+ - c4ann: C4 annual crops
+ - c4per: C4 perennial crops
+ - c3nfx: C3 nitrogen-fixing crops
+ 
+---
+```{r Primary forest, echo=FALSE, message=FALSE, warning=FALSE, paged.print=TRUE, out.width = "100%"}
+knitr::include_graphics("https://github.com/Tai-Rocha/OLS_2_Tai-Rocha/blob/master/img/forest_panoply.png?raw=true",)
 
-primf: forested primary land
-primn: non-forested primary land
-secdf: potentially forested secondary land
-secdn: potentially non-forested secondary land
-pastr: managed pasture
-range: rangeland
-urban: urban land
-c3ann: C3 annual crops
-c3per: C3 perennial crops
-c4ann: C4 annual crops
-c4per: C4 perennial crops
-c3nfx: C3 nitrogen-fixing crops
-
-Image
-
-
-
+```
+--
 However this data in provided in netcdf format, that is not user friendely for ecologist. 
 
 ---
 Main goal: 
 1- Resdistribute the data in tiff format that is more commom format used in ecology analysis. 
 
+
+
 2- Created a new data based on these all states.
 
 
 
+---
 How?
 
 I build a R script to 1- extract one by one layer 
@@ -59,16 +86,32 @@ I build a R script to 1- extract one by one layer
 3- Perfome a analysis to create a LULC categorical data that in a new data produced here.
 4- Validadtion of LULC new data (in porgress)
 
-
+---
 Results:
- 1- Several continuous layers in tiff format (from 800 to 2100)
+
  2- Land use lan cover data categorical layr from each year
+ 
+ 
+ 
+---
+ Results:
+
+ 2- Land use lan cover data categorical layr from each year
+ 
+ 
  
  
 Next stpes :
 
 1- I need to optimize the R script (prralelism?)
 2- Put the prduct (layers in  Ecoclimate database, a free database.)
+
+
+---
+Refrences :
+
+
+
 
 
 
