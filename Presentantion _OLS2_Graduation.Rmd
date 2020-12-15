@@ -1,0 +1,24 @@
+---
+title: "Presentation Ninja"
+subtitle: "⚔<br/>with xaringan"
+author: "Yihui Xie"
+institute: "RStudio, PBC"
+date: "2016/12/12 (updated: `r Sys.Date()`)"
+output:
+  xaringan::moon_reader:
+    lib_dir: libs
+    nature:
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+---
+
+Habitat loss derived from land use change, particularly land conversion into agriculture, is still among the greatest threats to biodiversity
+
+Mapping the Land-Use Land-Cover (LULC) changes through time is, therefore, important and desirable to predict these threats and propose effective conservation policies (Jetz,Wilcove, Dobson, 2007). 
+
+---
+
+LULC is also an important predictor of species’ occurrence and, thus extensively used in ecological studies (Vigl, Tasser, Schirpke, Tappeiner, 2017). 
+
+---

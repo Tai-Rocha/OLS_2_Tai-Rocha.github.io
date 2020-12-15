@@ -1,0 +1,53 @@
+---
+title: "Global land-use and land-cover (LULC) data under historical, current, and future climatic conditions for ecologists"
+subtitle: "OLS final presentation"
+author: "Tainá"
+institute: "RStudio, PBC"
+date: "2020/12/17 (updated: `r Sys.Date()`)"
+output:
+  xaringan::moon_reader:
+    lib_dir: libs
+    nature:
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+---
+
+Mapping the Land-Use Land-Cover (LULC) changes through time is important and desirable in many fields i ecology like to predict the threats or propose effective conservation policies and others (Jetz,Wilcove, Dobson, 2007). 
+
+Figures 
+
+---
+Despite of several initivaes provide LULC data. However most of these datasets are for short time series. 
+ 
+Figure
+
+---
+One interesting database called Land use harmonization porject, provides a set of land-use scenarios  for historical, present and future projections. The data raw data are continuoyr layer for tweves types called states
+
+primf: forested primary land
+primn: non-forested primary land
+secdf: potentially forested secondary land
+secdn: potentially non-forested secondary land
+pastr: managed pasture
+range: rangeland
+urban: urban land
+c3ann: C3 annual crops
+c3per: C3 perennial crops
+c4ann: C4 annual crops
+c4per: C4 perennial crops
+c3nfx: C3 nitrogen-fixing crops
+
+However this data in provided in netcdf format, that is not user friendely for ecologist. 
+
+---
+Main goal: Resdistribute the data in tiff format that is more commom format used im many ecology analysis. Create a new data base of these all states.
+
+How: I build a R script to 1- extract one by one layer 2- save each single state (which is a continuous data) as a TIF format, 3- perfome a analysis to create a LULC categorical data that in a new data and 4- Validation the data (in porgress)
+
+
+
+
+
+
+
