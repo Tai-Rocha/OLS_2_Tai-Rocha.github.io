@@ -1,8 +1,8 @@
 ---
 title: "Global land-use and land-cover (LULC) data under historical, current, and future climatic conditions for ecologists"
 subtitle: "OLS final presentation"
-author: "Tainá"
-institute: "RStudio, PBC"
+author: "Tainá Rocha"
+institute: "Botanical Garden of Rio de Janeiro, Brazil"
 date: "2020/12/17 (updated: `r Sys.Date()`)"
 output:
   xaringan::moon_reader:
