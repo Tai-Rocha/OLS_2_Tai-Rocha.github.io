@@ -15,10 +15,12 @@ output:
 
 Habitat loss derived from land use change, particularly land conversion into agriculture, is still among the greatest threats to biodiversity
 
+<image
+
 Mapping the Land-Use Land-Cover (LULC) changes through time is, therefore, important and desirable to predict these threats and propose effective conservation policies (Jetz,Wilcove, Dobson, 2007). 
 
 ---
 
-LULC is also an important predictor of species’ occurrence and, thus extensively used in ecological studies (Vigl, Tasser, Schirpke, Tappeiner, 2017). 
+LULC is also an important predictor of species’ occurrence and, thus extensively used in several ecological studies (Vigl, Tasser, Schirpke, Tappeiner, 2017). 
 
 ---
