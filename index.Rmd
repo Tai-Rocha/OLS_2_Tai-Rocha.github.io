@@ -1,7 +1,7 @@
 ---
 title: "Global land-use and land-cover (LULC) data under historical, current, and future climatic conditions for ecologists"
 subtitle: "OLS final presentation"
-author: "Tainá Rocha"
+author: "Tainá Rocha & Mariana Vale"
 institute: "Botanical Garden of Rio de Janeiro, Brazil"
 date: "2020/12/17 (updated: `r Sys.Date()`)"
 encoding: "UTF 8"
@@ -15,13 +15,17 @@ output:
 ---
 Main goals
 
-Make more accessible the Land-use harmonization (LUH2) data, once these data are in netcdf format that is not manageable in ecology analysis. And provide new data from the raw data. 
-
-```{r LUH2_1, echo=FALSE, message=FALSE, warning=FALSE, out.width= "70%", paged.print=TRUE, fig.align = "center"}
-knitr::include_graphics("https://luh.umd.edu/images/LUH2_logo300.jpg")
+1- It makes more accessible the Land-use harmonization (LUH2) data, once these data are in netcdf format that is not manageable for most ecology analysis. 
+```{r netcdf, echo=FALSE, message=FALSE, warning=FALSE, out.width= "50%", paged.print=TRUE, fig.align = "center"}
+knitr::include_graphics("https://www.esri.com/arcgis-blog/wp-content/uploads/2012/04/netCDF_SliceDiagram.png")
 ```
+2- And also, we provide new data from the raw data  
+```{r new, echo=FALSE, message=FALSE, warning=FALSE, out.width= "60%", paged.print=TRUE, fig.align = "center"}
+knitr::include_graphics("https://assets.bwbx.io/images/users/iqjWHBFdfxIU/i77xarGql_w8/v0/-999x-999.gif")
+```
+
 ---
-The Land-use Harmonization 
+The Land-use Harmonization (https://luh.umd.edu/)
 ```{r LUH2_2, echo=FALSE, message=FALSE, warning=FALSE, out.width= "40%", paged.print=TRUE, fig.align = "center"}
 knitr::include_graphics("https://luh.umd.edu/images/LUH2_logo300.jpg")
 ```
@@ -39,32 +43,23 @@ knitr::include_graphics("https://luh.umd.edu/images/LUH2_logo300.jpg")
  - c3nfx: C3 nitrogen-fixing crops
 
 ---
+Why do I do  this ? 
 
-Thus... 
-
-1- I converted the raw data in Tagged Image Format File (.tif extension) that is a more common format used in ecology analysis. 
-
-2- Created a new data from the raw data
-
---- 
-Why do I do  this ? # 
-
-Mapping the Land-Use Land-Cover (LULC) changes through time is important and desirable in many fields in ecology like to predict the threats or propose effective conservation policies and many others (Jetz,Wilcove, Dobson, 2007).
+Mapping the Land-Use Land-Cover (LULC) changes through time is important and desirable in many fields of ecology like to predict the threats or propose effective conservation policies and other kinds of studies (Torres et al 2014, Falcucci et al 2017, Hanna et al 2020).
  
 ---
 Issues
 
-However many databases have a time-series limitation. Contrary of many databases, LUH2 covers historical, current and future LULC projections.
-
+However most databases have a time-series limitation. Contrary to these databases, LUH2 covers historical, current and future LULC projections.
 ---
 How did I do this ?
 
 I built R scripts following these steps : 
 1- To extract one by one layer 
-2- To save each single layer (which is a continuous layers) as a TIFF format, 
+2- To save each single layer (which are a continuous layers) as a TIFF format, 
 3- To perform an analysis to combine all classes, generating categorical data, that's is new data produced here (LULC).
 4- To validate LULC new data (in progress...)
-```{r workflow, echo=FALSE, message=FALSE, warning=FALSE, paged.print=TRUE, out.width = "60%"}
+```{r workflow, echo=FALSE, message=FALSE, warning=FALSE, paged.print=TRUE, out.width = "55%"}
 
 knitr::include_graphics("https://github.com/Tai-Rocha/LUH2_Data/blob/master/doc/Figures/LUH2%20_LULC.png?raw=true")
 
@@ -78,10 +73,15 @@ Repository:
 
 https://github.com/Tai-Rocha/LUH2_Data
 
+```{r github, echo=FALSE, message=FALSE, warning=FALSE, paged.print=TRUE, out.width = "70%", fig.align= "center"}
+knitr::include_graphics("https://miro.medium.com/max/1280/1*9zGjjd13G-ZNWqogU6b71g.gif")
+```
+
+
 ---
 Results
 
- 1- Several continuous layers for each class and for each year from 850 to 2100 (Raw data in tiff format)
+1- Several continuous layers for each class and for each year from 850 to 2100 (Raw data in tiff format)
 
 ```{r tif layer, echo=FALSE, message=FALSE, warning=FALSE, paged.print=TRUE, out.width = "100%"}
 knitr::include_graphics("https://github.com/Tai-Rocha/OLS_2_Tai-Rocha/blob/master/img/forested%20primary%20land_ols.png?raw=true")
@@ -100,16 +100,20 @@ knitr::include_graphics("https://github.com/Tai-Rocha/OLS_2_Tai-Rocha/blob/maste
 ---
 Next steps :
 
-1- I need to optimize the R script (parallelism?) 
+1- I need to optimize the R scripts 
 
-2- To put the product (layers in Eco Climate database, a free database.)
+2- To put the layers in ecoClimate database (https://www.ecoclimate.org/), a free database.
 
 
 ---
 
 References :
 
+Hanna, D. E., Raudsepp‐Hearne, C., & Bennett, E. M. (2020). Effects of land use, cover, and protection on stream and riparian ecosystem services and biodiversity. Conservation Biology, 34(1), 244-255.
 
+Falcucci, A., Maiorano, L., & Boitani, L. (2007). Changes in land-use/land-cover patterns in Italy and their implications for biodiversity conservation. Landscape ecology, 22(4), 617-631.
+
+Torres, R., Gasparri, N. I., Blendinger, P. G., & Grau, H. R. (2014). Land-use and land-cover effects on regional biodiversity distribution in a subtropical dry forest: a hierarchical integrative multi-taxa study. Regional Environmental Change, 14(4), 1549-1561.
 
 ---
 

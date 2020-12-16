@@ -3,7 +3,7 @@
   <head>
     <title>Global land-use and land-cover (LULC) data under historical, current, and future climatic conditions for ecologists</title>
     <meta charset="utf-8" />
-    <meta name="author" content="Tainá Rocha" />
+    <meta name="author" content="Tainá Rocha &amp; Mariana Vale" />
     <script src="libs/header-attrs-2.3/header-attrs.js"></script>
     <link href="libs/remark-css-0.0.1/default.css" rel="stylesheet" />
     <link href="libs/remark-css-0.0.1/default-fonts.css" rel="stylesheet" />
@@ -14,7 +14,7 @@ class: center, middle, inverse, title-slide
 
 # Global land-use and land-cover (LULC) data under historical, current, and future climatic conditions for ecologists
 ## OLS final presentation
-### Tainá Rocha
+### Tainá Rocha &amp; Mariana Vale
 ### Botanical Garden of Rio de Janeiro, Brazil
 ### 2020/12/17 (updated: 2020-12-16)
 
@@ -22,11 +22,13 @@ class: center, middle, inverse, title-slide
 
 Main goals
 
-Make more accessible the Land-use harmonization (LUH2) data, once these data are in netcdf format that is not manageable in ecology analysis. And provide new data from the raw data. 
+1- It makes more accessible the Land-use harmonization (LUH2) data, once these data are in netcdf format that is not manageable for most ecology analysis. 
+&lt;img src="https://www.esri.com/arcgis-blog/wp-content/uploads/2012/04/netCDF_SliceDiagram.png" width="50%" style="display: block; margin: auto;" /&gt;
+2- And also, we provide new data from the raw data  
+&lt;img src="https://assets.bwbx.io/images/users/iqjWHBFdfxIU/i77xarGql_w8/v0/-999x-999.gif" width="60%" style="display: block; margin: auto;" /&gt;
 
-&lt;img src="https://luh.umd.edu/images/LUH2_logo300.jpg" width="70%" style="display: block; margin: auto;" /&gt;
 ---
-The Land-use Harmonization 
+The Land-use Harmonization (https://luh.umd.edu/)
 &lt;img src="https://luh.umd.edu/images/LUH2_logo300.jpg" width="40%" style="display: block; margin: auto;" /&gt;
  - primf: forested primary land
  - primn: non-forested primary land
@@ -42,32 +44,23 @@ The Land-use Harmonization
  - c3nfx: C3 nitrogen-fixing crops
 
 ---
+Why do I do  this ? 
 
-Thus... 
-
-1- I converted the raw data in Tagged Image Format File (.tif extension) that is a more common format used in ecology analysis. 
-
-2- Created a new data from the raw data
-
---- 
-Why do I do  this ? # 
-
-Mapping the Land-Use Land-Cover (LULC) changes through time is important and desirable in many fields in ecology like to predict the threats or propose effective conservation policies and many others (Jetz,Wilcove, Dobson, 2007).
+Mapping the Land-Use Land-Cover (LULC) changes through time is important and desirable in many fields of ecology like to predict the threats or propose effective conservation policies and other kinds of studies (Torres et al 2014, Falcucci et al 2017, Hanna et al 2020).
  
 ---
 Issues
 
-However many databases have a time-series limitation. Contrary of many databases, LUH2 covers historical, current and future LULC projections.
-
+However most databases have a time-series limitation. Contrary to these databases, LUH2 covers historical, current and future LULC projections.
 ---
 How did I do this ?
 
 I built R scripts following these steps : 
 1- To extract one by one layer 
-2- To save each single layer (which is a continuous layers) as a TIFF format, 
+2- To save each single layer (which are a continuous layers) as a TIFF format, 
 3- To perform an analysis to combine all classes, generating categorical data, that's is new data produced here (LULC).
 4- To validate LULC new data (in progress...)
-&lt;img src="https://github.com/Tai-Rocha/LUH2_Data/blob/master/doc/Figures/LUH2%20_LULC.png?raw=true" width="60%" /&gt;
+&lt;img src="https://github.com/Tai-Rocha/LUH2_Data/blob/master/doc/Figures/LUH2%20_LULC.png?raw=true" width="55%" /&gt;
 
 ---
 
@@ -77,10 +70,13 @@ Repository:
 
 https://github.com/Tai-Rocha/LUH2_Data
 
+&lt;img src="https://miro.medium.com/max/1280/1*9zGjjd13G-ZNWqogU6b71g.gif" width="70%" style="display: block; margin: auto;" /&gt;
+
+
 ---
 Results
 
- 1- Several continuous layers for each class and for each year from 850 to 2100 (Raw data in tiff format)
+1- Several continuous layers for each class and for each year from 850 to 2100 (Raw data in tiff format)
 
 &lt;img src="https://github.com/Tai-Rocha/OLS_2_Tai-Rocha/blob/master/img/forested%20primary%20land_ols.png?raw=true" width="100%" /&gt;
  
@@ -93,16 +89,20 @@ Results
 ---
 Next steps :
 
-1- I need to optimize the R script (parallelism?) 
+1- I need to optimize the R scripts 
 
-2- To put the product (layers in Eco Climate database, a free database.)
+2- To put the layers in ecoClimate database (https://www.ecoclimate.org/), a free database.
 
 
 ---
 
 References :
 
+Hanna, D. E., Raudsepp‐Hearne, C., &amp; Bennett, E. M. (2020). Effects of land use, cover, and protection on stream and riparian ecosystem services and biodiversity. Conservation Biology, 34(1), 244-255.
 
+Falcucci, A., Maiorano, L., &amp; Boitani, L. (2007). Changes in land-use/land-cover patterns in Italy and their implications for biodiversity conservation. Landscape ecology, 22(4), 617-631.
+
+Torres, R., Gasparri, N. I., Blendinger, P. G., &amp; Grau, H. R. (2014). Land-use and land-cover effects on regional biodiversity distribution in a subtropical dry forest: a hierarchical integrative multi-taxa study. Regional Environmental Change, 14(4), 1549-1561.
 
 ---
 
