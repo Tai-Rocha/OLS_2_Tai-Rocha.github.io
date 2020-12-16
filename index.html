@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="" xml:lang="">
+  <head>
+    <title>Global land-use and land-cover (LULC) data under historical, current, and future climatic conditions for ecologists</title>
+    <meta charset="utf-8" />
+    <meta name="author" content="Tainá Rocha" />
+    <script src="libs/header-attrs-2.3/header-attrs.js"></script>
+    <link href="libs/remark-css-0.0.1/default.css" rel="stylesheet" />
+    <link href="libs/remark-css-0.0.1/default-fonts.css" rel="stylesheet" />
+  </head>
+  <body>
+    <textarea id="source">
+class: center, middle, inverse, title-slide
+
+# Global land-use and land-cover (LULC) data under historical, current, and future climatic conditions for ecologists
+## OLS final presentation
+### Tainá Rocha
+### Botanical Garden of Rio de Janeiro, Brazil
+### 2020/12/17 (updated: 2020-12-16)
+
+---
+
+Main goals
+
+Make more accessible the Land-use harmonization (LUH2) data, once these data are in netcdf format that is not manageable in ecology analysis. And provide new data from the raw data. 
+
+&lt;img src="https://luh.umd.edu/images/LUH2_logo300.jpg" width="70%" style="display: block; margin: auto;" /&gt;
+---
+The Land-use Harmonization 
+&lt;img src="https://luh.umd.edu/images/LUH2_logo300.jpg" width="40%" style="display: block; margin: auto;" /&gt;
+ - primf: forested primary land
+ - primn: non-forested primary land
+ - secdf: potentially forested secondary land
+ - secdn: potentially non-forested secondary land
+ - pastr: managed pasture
+ - range: rangeland
+ - urban: urban land
+ - c3ann: C3 annual crops
+ - c3per: C3 perennial crops
+ - c4ann: C4 annual crops
+ - c4per: C4 perennial crops
+ - c3nfx: C3 nitrogen-fixing crops
+
+---
+
+Thus... 
+
+1- I converted the raw data in Tagged Image Format File (.tif extension) that is a more common format used in ecology analysis. 
+
+2- Created a new data from the raw data
+
+--- 
+Why do I do  this ? # 
+
+Mapping the Land-Use Land-Cover (LULC) changes through time is important and desirable in many fields in ecology like to predict the threats or propose effective conservation policies and many others (Jetz,Wilcove, Dobson, 2007).
+ 
+---
+Issues
+
+However many databases have a time-series limitation. Contrary of many databases, LUH2 covers historical, current and future LULC projections.
+
+---
+How did I do this ?
+
+I built R scripts following these steps : 
+1- To extract one by one layer 
+2- To save each single layer (which is a continuous layers) as a TIFF format, 
+3- To perform an analysis to combine all classes, generating categorical data, that's is new data produced here (LULC).
+4- To validate LULC new data (in progress...)
+&lt;img src="https://github.com/Tai-Rocha/LUH2_Data/blob/master/doc/Figures/LUH2%20_LULC.png?raw=true" width="60%" /&gt;
+
+---
+
+Github
+
+Repository:
+
+https://github.com/Tai-Rocha/LUH2_Data
+
+---
+Results
+
+ 1- Several continuous layers for each class and for each year from 850 to 2100 (Raw data in tiff format)
+
+&lt;img src="https://github.com/Tai-Rocha/OLS_2_Tai-Rocha/blob/master/img/forested%20primary%20land_ols.png?raw=true" width="100%" /&gt;
+ 
+---
+ Results
+
+ 2- Land use land cover data (categorical layer) from each year.
+
+&lt;img src="https://github.com/Tai-Rocha/OLS_2_Tai-Rocha/blob/master/img/LULC_2010.jpg?raw=true" width="70%" /&gt;
+---
+Next steps :
+
+1- I need to optimize the R script (parallelism?) 
+
+2- To put the product (layers in Eco Climate database, a free database.)
+
+
+---
+
+References :
+
+
+
+---
+
+Thanks to all OLS team!
+
+&lt;img src="https://1.bp.blogspot.com/-Ilu38MXMxJY/XmmKto0HnGI/AAAAAAA2O5s/lQmNs4-TlGAbWkrCtw_vIkVkKKifIRlQQCLcBGAsYHQ/s1600/AS0006470_02.gif" width="70%" style="display: block; margin: auto;" /&gt;
+
+---
+Special thanks to my mentors
+
+&lt;img src="https://media.tenor.com/images/e59086191f2d5492dac1291d1629dde2/tenor.gif" width="40%" style="display: block; margin: auto;" /&gt;
+
+Bruno 
+&lt;img src="https://github.com/Tai-Rocha/OLS_2_Tai-Rocha/blob/master/img/Bruno.jpg?raw=true" width="20%" style="display: block; margin: auto;" /&gt;
+Yvan
+&lt;img src="https://github.com/Tai-Rocha/OLS_2_Tai-Rocha/blob/master/img/Yvan.jpg?raw=true" width="20%" style="display: block; margin: auto;" /&gt;
+
+
+
+
+
+
+
+
+
+    </textarea>
+<style data-target="print-only">@media screen {.remark-slide-container{display:block;}.remark-slide-scaler{box-shadow:none;}}</style>
+<script src="https://remarkjs.com/downloads/remark-latest.min.js"></script>
+<script>var slideshow = remark.create({
+"highlightStyle": "github",
+"highlightLines": true,
+"countIncrementalSlides": false
+});
+if (window.HTMLWidgets) slideshow.on('afterShowSlide', function (slide) {
+  window.dispatchEvent(new Event('resize'));
+});
+(function(d) {
+  var s = d.createElement("style"), r = d.querySelector(".remark-slide-scaler");
+  if (!r) return;
+  s.type = "text/css"; s.innerHTML = "@page {size: " + r.style.width + " " + r.style.height +"; }";
+  d.head.appendChild(s);
+})(document);
+
+(function(d) {
+  var el = d.getElementsByClassName("remark-slides-area");
+  if (!el) return;
+  var slide, slides = slideshow.getSlides(), els = el[0].children;
+  for (var i = 1; i < slides.length; i++) {
+    slide = slides[i];
+    if (slide.properties.continued === "true" || slide.properties.count === "false") {
+      els[i - 1].className += ' has-continuation';
+    }
+  }
+  var s = d.createElement("style");
+  s.type = "text/css"; s.innerHTML = "@media print { .has-continuation { display: none; } }";
+  d.head.appendChild(s);
+})(document);
+// delete the temporary CSS (for displaying all slides initially) when the user
+// starts to view slides
+(function() {
+  var deleted = false;
+  slideshow.on('beforeShowSlide', function(slide) {
+    if (deleted) return;
+    var sheets = document.styleSheets, node;
+    for (var i = 0; i < sheets.length; i++) {
+      node = sheets[i].ownerNode;
+      if (node.dataset["target"] !== "print-only") continue;
+      node.parentNode.removeChild(node);
+    }
+    deleted = true;
+  });
+})();
+(function() {
+  "use strict"
+  // Replace <script> tags in slides area to make them executable
+  var scripts = document.querySelectorAll(
+    '.remark-slides-area .remark-slide-container script'
+  );
+  if (!scripts.length) return;
+  for (var i = 0; i < scripts.length; i++) {
+    var s = document.createElement('script');
+    var code = document.createTextNode(scripts[i].textContent);
+    s.appendChild(code);
+    var scriptAttrs = scripts[i].attributes;
+    for (var j = 0; j < scriptAttrs.length; j++) {
+      s.setAttribute(scriptAttrs[j].name, scriptAttrs[j].value);
+    }
+    scripts[i].parentElement.replaceChild(s, scripts[i]);
+  }
+})();
+(function() {
+  var links = document.getElementsByTagName('a');
+  for (var i = 0; i < links.length; i++) {
+    if (/^(https?:)?\/\//.test(links[i].getAttribute('href'))) {
+      links[i].target = '_blank';
+    }
+  }
+})();
+// adds .remark-code-has-line-highlighted class to <pre> parent elements
+// of code chunks containing highlighted lines with class .remark-code-line-highlighted
+(function(d) {
+  const hlines = d.querySelectorAll('.remark-code-line-highlighted');
+  const preParents = [];
+  const findPreParent = function(line, p = 0) {
+    if (p > 1) return null; // traverse up no further than grandparent
+    const el = line.parentElement;
+    return el.tagName === "PRE" ? el : findPreParent(el, ++p);
+  };
+
+  for (let line of hlines) {
+    let pre = findPreParent(line);
+    if (pre && !preParents.includes(pre)) preParents.push(pre);
+  }
+  preParents.forEach(p => p.classList.add("remark-code-has-line-highlighted"));
+})(document);</script>
+
+<script>
+slideshow._releaseMath = function(el) {
+  var i, text, code, codes = el.getElementsByTagName('code');
+  for (i = 0; i < codes.length;) {
+    code = codes[i];
+    if (code.parentNode.tagName !== 'PRE' && code.childElementCount === 0) {
+      text = code.textContent;
+      if (/^\\\((.|\s)+\\\)$/.test(text) || /^\\\[(.|\s)+\\\]$/.test(text) ||
+          /^\$\$(.|\s)+\$\$$/.test(text) ||
+          /^\\begin\{([^}]+)\}(.|\s)+\\end\{[^}]+\}$/.test(text)) {
+        code.outerHTML = code.innerHTML;  // remove <code></code>
+        continue;
+      }
+    }
+    i++;
+  }
+};
+slideshow._releaseMath(document);
+</script>
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+(function () {
+  var script = document.createElement('script');
+  script.type = 'text/javascript';
+  script.src  = 'https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-MML-AM_CHTML';
+  if (location.protocol !== 'file:' && /^https?:/.test(script.src))
+    script.src  = script.src.replace(/^https?:/, '');
+  document.getElementsByTagName('head')[0].appendChild(script);
+})();
+</script>
+  </body>
+</html>
