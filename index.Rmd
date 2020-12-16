@@ -71,6 +71,14 @@ knitr::include_graphics("https://github.com/Tai-Rocha/LUH2_Data/blob/master/doc/
 ```
 
 ---
+
+Github
+
+Repository:
+
+https://github.com/Tai-Rocha/LUH2_Data
+
+---
 Results
 
  1- Several continuous layers for each class and for each year from 850 to 2100 (Raw data in tiff format)
@@ -98,6 +106,7 @@ Next steps :
 
 
 ---
+
 References :
 
 
