@@ -3,7 +3,7 @@ title: "Global land-use and land-cover (LULC) data under historical, current, an
 subtitle: "OLS final presentation"
 author: "Tainá Rocha & Mariana Vale"
 institute: "Botanical Garden of Rio de Janeiro, Brazil"
-date: "2020/12/17 (updated: `r Sys.Date()`)"
+date: "14th December 2020	 (updated: `r Sys.Date()`)"
 encoding: "UTF 8"
 output:
   xaringan::moon_reader:
