@@ -25,7 +25,7 @@ knitr::include_graphics("https://assets.bwbx.io/images/users/iqjWHBFdfxIU/i77xar
 ```
 
 ---
-The Land-use Harmonization (https://luh.umd.edu/)
+The Land-use Harmonization database (https://luh.umd.edu/)
 ```{r LUH2_2, echo=FALSE, message=FALSE, warning=FALSE, out.width= "40%", paged.print=TRUE, fig.align = "center"}
 knitr::include_graphics("https://luh.umd.edu/images/LUH2_logo300.jpg")
 ```
@@ -43,14 +43,14 @@ knitr::include_graphics("https://luh.umd.edu/images/LUH2_logo300.jpg")
  - c3nfx: C3 nitrogen-fixing crops
 
 ---
-Why do I do  this ? 
+Why did I do  this ? 
 
-Mapping the Land-Use Land-Cover (LULC) changes through time is important predict the threats or propose effective conservation policies and many other kinds of studies (Torres et al 2014, Falcucci et al 2017, Hanna et al 2020).
+Mapping the Land-Use Land-Cover (LULC) changes through time is important to predict the threats or propose effective conservation policies and many other kinds of ecology studies (Torres et al 2014, Falcucci et al 2017, Hanna et al 2020).
  
 ---
 Issues
 
-However most databases have a time-series limitation. Contrary to these databases, LUH2 covers historical, current and future LULC projections.
+However most databases have a time-series limitation. Contrary to these databases, LUH2 covers historical, current and future land use projections.
 ---
 How did I do this ?
 
@@ -101,8 +101,10 @@ knitr::include_graphics("https://github.com/Tai-Rocha/OLS_2_Tai-Rocha/blob/maste
 Next steps :
 
 1- I need to optimize the R scripts 
-2- Improve my README
-2- To put the layers in ecoClimate database (https://www.ecoclimate.org/), a free database.
+
+2- Improve the README
+
+3- To put the layers in ecoClimate  (https://www.ecoclimate.org/), another free database.
 
 
 ---
