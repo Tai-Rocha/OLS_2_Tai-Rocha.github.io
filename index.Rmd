@@ -45,7 +45,7 @@ knitr::include_graphics("https://luh.umd.edu/images/LUH2_logo300.jpg")
 ---
 Why do I do  this ? 
 
-Mapping the Land-Use Land-Cover (LULC) changes through time is important and desirable in many fields of ecology like to predict the threats or propose effective conservation policies and other kinds of studies (Torres et al 2014, Falcucci et al 2017, Hanna et al 2020).
+Mapping the Land-Use Land-Cover (LULC) changes through time is important predict the threats or propose effective conservation policies and many other kinds of studies (Torres et al 2014, Falcucci et al 2017, Hanna et al 2020).
  
 ---
 Issues
@@ -101,7 +101,7 @@ knitr::include_graphics("https://github.com/Tai-Rocha/OLS_2_Tai-Rocha/blob/maste
 Next steps :
 
 1- I need to optimize the R scripts 
-
+2- Improve my README
 2- To put the layers in ecoClimate database (https://www.ecoclimate.org/), a free database.
 
 
