@@ -13,7 +13,7 @@ output:
       highlightLines: true
       countIncrementalSlides: false
 ---
-Main goals
+Main goals 
 
 1- It makes more accessible the Land-use harmonization (LUH2) data, once these data are in netcdf format that is not manageable for most ecology analysis. 
 ```{r netcdf, echo=FALSE, message=FALSE, warning=FALSE, out.width= "50%", paged.print=TRUE, fig.align = "center"}
@@ -45,7 +45,7 @@ knitr::include_graphics("https://luh.umd.edu/images/LUH2_logo300.jpg")
 ---
 Why did I do  this ? 
 
-Mapping the Land-Use Land-Cover (LULC) changes through time is important to predict the threats or propose effective conservation policies and many other kinds of ecology studies (Torres et al 2014, Falcucci et al 2017, Hanna et al 2020).
+Mapping the Land-Use Land-Cover (LULC) changes through time is important to predict the threats or propose effective conservation policies and many other kinds of ecology studies (Torres et al 2014, Falcucci et al 2017, Hanna et al. 2020).
  
 ---
 Issues
