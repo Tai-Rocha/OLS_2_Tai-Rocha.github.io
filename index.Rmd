@@ -1,6 +1,6 @@
 ---
 title: "Global land-use and land-cover (LULC) data under historical, current, and future climatic conditions for ecologists"
-subtitle: "OLS final presentation"
+subtitle: "OLS 2 final presentation"
 author: "Tainá Rocha & Mariana Vale"
 institute: "Botanical Garden of Rio de Janeiro, Brazil"
 date: "14th December 2020	 (updated: `r Sys.Date()`)"
@@ -144,12 +144,4 @@ Yvan
 knitr::include_graphics("https://github.com/Tai-Rocha/OLS_2_Tai-Rocha/blob/master/img/Yvan.jpg?raw=true")
 
 ```
-
-
-
-
-
-
-
-
 
