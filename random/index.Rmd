@@ -60,9 +60,7 @@ I built R scripts following these steps :
 3- To perform an analysis to combine all classes, generating categorical data, that's is new data produced here (LULC).
 4- To validate LULC new data (in progress...)
 ```{r workflow, echo=FALSE, message=FALSE, warning=FALSE, paged.print=TRUE, out.width = "55%"}
-
 knitr::include_graphics("https://github.com/Tai-Rocha/LUH2_Data/blob/master/doc/Figures/LUH2%20_LULC.png?raw=true")
-
 ```
 
 ---
@@ -85,7 +83,6 @@ Results
 
 ```{r tif layer, echo=FALSE, message=FALSE, warning=FALSE, paged.print=TRUE, out.width = "100%"}
 knitr::include_graphics("https://github.com/Tai-Rocha/OLS_2_Tai-Rocha/blob/master/img/forested%20primary%20land_ols.png?raw=true")
-
 ```
  
 ---
@@ -95,7 +92,6 @@ knitr::include_graphics("https://github.com/Tai-Rocha/OLS_2_Tai-Rocha/blob/maste
 
 ```{r categorical layer, echo=FALSE, message=FALSE, warning=FALSE, paged.print=TRUE, out.width = "70%"}
 knitr::include_graphics("https://github.com/Tai-Rocha/OLS_2_Tai-Rocha/blob/master/img/LULC_2010.jpg?raw=true")
-
 ```
 ---
 Next steps :
@@ -123,7 +119,6 @@ Thanks to all OLS team!
 
 ```{r snoopy, echo=FALSE, message=FALSE, warning=FALSE, paged.print=TRUE, out.width = "70%",fig.align = "center"}
 knitr::include_graphics("https://1.bp.blogspot.com/-Ilu38MXMxJY/XmmKto0HnGI/AAAAAAA2O5s/lQmNs4-TlGAbWkrCtw_vIkVkKKifIRlQQCLcBGAsYHQ/s1600/AS0006470_02.gif")
-
 ```
 
 ---
@@ -131,17 +126,13 @@ Special thanks to my mentors
 
 ```{r woodstok, echo=FALSE, message=FALSE, warning=FALSE, paged.print=TRUE, out.width = "40%", fig.align = "center"}
 knitr::include_graphics("https://media.tenor.com/images/e59086191f2d5492dac1291d1629dde2/tenor.gif")
-
 ```
 
 Bruno 
 ```{r Bruno, echo=FALSE, message=FALSE, warning=FALSE, paged.print=TRUE, out.width = "20%", fig.align = "center"}
 knitr::include_graphics("https://github.com/Tai-Rocha/OLS_2_Tai-Rocha/blob/master/img/Bruno.jpg?raw=true")
-
 ```
 Yvan
 ```{r Yvan, echo=FALSE, message=FALSE, warning=FALSE, paged.print=TRUE, out.width = "20%", fig.align = "center"}
 knitr::include_graphics("https://github.com/Tai-Rocha/OLS_2_Tai-Rocha/blob/master/img/Yvan.jpg?raw=true")
-
 ```
-
